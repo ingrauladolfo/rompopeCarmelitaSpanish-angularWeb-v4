@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <button mat-button class="example-icon" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <div class="spacer"></div>
+        <img src="../../../assets/img/logos/carmelita-modified.png"  width="80" height="100"
+                    alt="Logo Carmelita">
+        <div class="spacer"></div>
+        <button mat-button>
+            <a href="https://usa.rompopecarmelita.com/" target="_blank"> <img src="../../../assets/img/navbar-logo/eua.png" width="30" height="30"
+                    alt="Cambiar a idioma inglés"> </a>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item [routerLink]="['/']">Inicio/Nosotros/Contacto</button>
+    <button mat-menu-item [routerLink]="['nuestra-historia']">Nuestra historia</button>
+    <button mat-menu-item [routerLink]="['recetario-y-proceso-artesanal']">Recetario y Proceso Artesanal</button>
+    <button mat-menu-item [routerLink]="['catalogo']">Catálogo</button>
+    <button mat-menu-item [routerLink]="['puntos-de-ventas']">Puntos de ventas</button>
+    <button mat-menu-item [routerLink]="['nuestra-familia']">Nuestra familia</button>
+    <button mat-menu-item [routerLink]="['certificaciones']">Nuestras certificaciones</button>
+</mat-menu>

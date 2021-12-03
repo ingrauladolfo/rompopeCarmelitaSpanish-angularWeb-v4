@@ -1,0 +1,22 @@
+@font-face {
+    font-family: GIOVANNI;
+    src: url('../../../assets/font/GIOVANNI.ttf') format("truetype");
+}
+.spacer{
+    flex: 1 1 auto;
+}
+mat-toolbar{
+    background: #741b1d !important;
+    position: fixed;
+    position: -webkit-fixed; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+button{
+    font-family: GIOVANNI;
+}
+button:hover{
+    background: #741b1d !important;
+    color: #ffffff;
+    font-family: GIOVANNI;
+}

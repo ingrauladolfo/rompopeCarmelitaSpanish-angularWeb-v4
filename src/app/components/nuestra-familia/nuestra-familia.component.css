@@ -1,0 +1,126 @@
+@media (min-width: 100px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 280px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 360px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 540px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 768px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 1024px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 1200px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 1300px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}
+@media (min-width: 1500px){
+    .background{
+        width: 100%;
+        height: 700px;
+        background: url('../../../assets/img/fondos/nuestra-familia.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}

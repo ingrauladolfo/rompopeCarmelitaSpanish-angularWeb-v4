@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "GIOVANNI";
+    src: local("GIOVANNI"), url('./assets/font/GIOVANNI.ttf') format("truetype");
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";

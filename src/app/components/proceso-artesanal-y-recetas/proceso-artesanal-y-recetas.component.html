@@ -1,0 +1,53 @@
+<div class="background">
+    <div class="row justify-content-center mx-auto pt-5">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <a><img class="img-fluid z-depth-1"
+                    src="../../../assets/img/proceso-artesanal-recetas/cocinando-con-carmelita.png" alt="Recetas con Carmelita"
+                    [routerLink]="['/recetas-carmelita']" routerLinkActive="router-link-active" ></a>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 mb-4">
+            <a><img class="img-fluid z-depth-1"
+                    src="../../../assets/img/proceso-artesanal-recetas/proceso-artesanal.png" alt="Proceso Artesanal"
+                    (click)="videoModal2.show()"></a>
+        </div>
+    </div>
+
+
+    <div mdbModal #videoModal2="mdbModal" class="modal fade" tabindex="-1" role="dialog"
+        aria-labelledby="myVideoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.youtube.com/embed/videoseries?list=PLSl9RKwrm0q8I9WvWyrFAsdv4KHzLnjno"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <span class="mr-4">Proceso Artesanal</span>
+                    <a type="button" mdbBtn href="https://www.facebook.com/RompopeCarmelita" target="_blank"
+                        floating="true" size="sm" color="fb">
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                    <!--Youtube-->
+                    <a type="button" mdbBtn href="https://www.youtube.com/channel/UCx-a8pvWWzQi2rW188voCHQ"
+                        target="_blank" floating="true" size="sm" color="yt">
+                        <mdb-icon fab icon="youtube"></mdb-icon>
+                    </a>
+                    <!--Instagram-->
+                    <a type="button" mdbBtn href="https://www.instagram.com/rompope_carmelita/" target="_blank"
+                        floating="true" size="sm" color="ig">
+                        <mdb-icon fab icon="instagram"></mdb-icon>
+                    </a>
+
+                    <button mdbBtn type="button" color="primary" rounded="true" outline="true" size="md"
+                        (click)="videoModal2.hide()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

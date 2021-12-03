@@ -1,0 +1,15 @@
+<div class="container mt-5 pt-5 mb-5">
+    <div class="row mx-auto text-center mt-5 justify-content-center">
+        <mat-card class="example-card" *ngFor="let momento of momentos, index as i">
+            <mat-card-content>
+                <a [routerLink]="['/momentos-carmelita/galeria/',i]" routerLinkActive="router-link-active" >
+                    <img mat-card-image [src]="momento.portada" [alt]="momento.descportada">
+                    <h2 style="text-transform: uppercase;">{{momento.album}}</h2>
+                </a>
+                
+
+            </mat-card-content>
+        </mat-card>
+
+    </div>
+</div>

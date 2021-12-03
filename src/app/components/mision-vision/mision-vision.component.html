@@ -1,0 +1,30 @@
+<div class="background">
+    <div class="container mt-5 pt-5">
+        <div class="row" >
+            <div class="col-sm-4 mb-3" *ngFor="let politica of politica">
+                <div class="card" style="width: 21rem;">
+                    <img [src]="politica.img" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bolder text-center display-5 h-5">{{politica.tipo}}</h5>
+                      <p class="card-text text-center">{{politica.descripcion}}</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="background2">
+    <div class="container" align="center">
+        <div class="row justify-content-center mx-auto pt-5">
+            <h2 class="text-center mx-auto" style="color:rgb(255,255,255);">Nuestros valores</h2>
+        </div>
+        <div class="row justify-content-center mx-auto pt-5" >
+            
+            <div class="col-lg-4 col-md-6 mb-4" *ngFor="let valor of valores">
+                <img class="img-fluid " [src]="valor.ruta" [alt]="valor.alt">
+                <h3 class="text-center" style="color:rgb(255,255,255);">{{valor.valor}}</h3>
+            </div>
+        </div>
+    </div>
+</div>

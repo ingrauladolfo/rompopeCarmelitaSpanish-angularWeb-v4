@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'GIOVANNI';
+    src: url('../../../assets/font/GIOVANNI.ttf') format("truetype");
+}
+h1,p a{
+    font-family: 'GIOVANNI';
+}
+.btn-primary{
+    background-color: #741b1d !important;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+button{
+    background-color: #741b1d;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #741b1d;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+button a{
+    background-color: #741b1d;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+button a:hover{
+    background-color: #741b1d;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.card{
+    background: transparent;
+    border: none;
+    align-items: center;
+}

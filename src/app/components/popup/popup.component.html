@@ -1,0 +1,112 @@
+<!-- <p>popup works!</p> -->
+<div class="pop-up">
+  <div class="pop-up-wrap">
+      <!-- <div class="pop-up-title">
+          <h2>Rompope Carmelita</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+      </div> -->
+      <div class="subcription">
+          <div class="line"></div>
+          <i class="far fa-times-circle" id="close"></i>
+          <div class="sub-content">
+              <h2>¿Te interesa alguno de nuestros productos?</h2>
+              <form name="contact_form" (submit)="sendEmail($event)">
+                <div class="form-row my-5">
+                  
+                  <div class="col-lg-6">
+                    <input type="text" class="effect-1" name="name" placeholder="Nombre">
+                    <span class="Focus-border"></span>
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="effect-1" name="subject" value="Contacto de sitio web" placeholder="Asunto" readonly>
+                    <span class="Focus-border"></span>
+                  </div>
+                </div>
+                <div class="form-row my-5">
+                  <div class="col-lg-6">
+                    <input type="email" class="effect-1" name="email" placeholder="Correo"> 
+                    <span class="Focus-border"></span>
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="tel" class="effect-1" name="cel" aria-describedby="cel" placeholder="Teléfono" size="20" minlength="1" maxlength="10"> 
+                    <span class="Focus-border"></span>
+                  </div>
+                </div>
+                <div class="form-row pb-3">
+                  <div class="col-lg-12">
+                    <input type="text" class="effect-1" name="message"  placeholder="Mensaje"> 
+                  <span class="Focus-border"></span>
+                  </div>
+                </div>
+                <div class="form-row d-flex">
+                  <div class="col-lg-12  justify-content-center align-items-center">
+                    <button class="subs-send" type="submit">Enviar </button>
+                  </div>
+                </div>
+              </form>
+          </div>
+          
+          <div class="line"></div>
+      </div>
+  </div>
+</div>
+<!-- <input type="checkbox" name="cerrar" id="cerrar">
+<label for="cerrar" id="btn-cerrar">X</label>
+<div class="modal">
+  <div class="contenido mx-auto text-center">
+    <section class="contact">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="head text-center  py-3">
+                      <h3 class="text-white">¿Te interesa alguno de nuestros productos?</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="form p-3">
+                  <form name="contact_form" (submit)="sendEmail($event)">
+                    <div class="form-row my-5">
+                      <div class="col-lg-6">
+                        <input type="text" class="effect-1" name="subject" value="Contacto de sitio web" placeholder="Asunto" readonly>
+                        <span class="Focus-border"></span>
+                      </div>
+                      <div class="col-lg-6">
+                        <input type="text" class="effect-1" name="name" placeholder="Nombre">
+                        <span class="Focus-border"></span>
+                      </div>
+                    </div>
+                    <div class="form-row my-5">
+                      <div class="col-lg-6">
+                        <input type="email" class="effect-1" name="email" placeholder="Correo"> 
+                        <span class="Focus-border"></span>
+                      </div>
+                      <div class="col-lg-6">
+                        <input type="tel" class="effect-1" name="cel" aria-describedby="cel" placeholder="Teléfono" size="20" minlength="1" maxlength="10"> 
+                        <span class="Focus-border"></span>
+                      </div>
+                    </div>
+                    <div class="form-row pb-3">
+                      <div class="col-lg-12">
+                        <input type="text" class="effect-1" name="message"  placeholder="Mensaje"> 
+                      <span class="Focus-border"></span>
+                      </div>
+                    </div>
+                    <div class="form-row d-flex">
+                      <div class="col-lg-12  justify-content-center align-items-center">
+                        <button type="submit" class="btn1 effect-1">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div> -->

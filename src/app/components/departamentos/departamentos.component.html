@@ -1,0 +1,26 @@
+<div class="card-deck row mx-auto text-center justify-content-center mt-5">
+  <!-- Card -->
+<mdb-card *ngFor="let card of cards">
+  <div class="view overlay waves-light" mdbWavesEffect>
+    <!-- Card img -->
+    <mdb-card-img [src]="card.img" alt="card.alt"></mdb-card-img>
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+  <!--Card content-->
+  <mdb-card-body>
+    <!--Title-->
+    <mdb-card-title>
+      <h4>{{ card.nombre }}</h4>
+            <p> {{ card.puesto}}</p>
+    </mdb-card-title>
+
+    <!--Text-->
+    <mdb-card-text> {{ card.descripcion }}</mdb-card-text>
+
+    <a [href]="card.tel" target="_blank" mdbBtn color="primary" class="waves-light" mdbWavesEffect><i class="fas fa-phone fa-4x"></i></a>
+          <a [href]="card.correo" target="_blank" mdbBtn color="primary" class="waves-light" mdbWavesEffect><i class="fas fa-envelope fa-4x"></i></a>
+  </mdb-card-body>
+</mdb-card>
+</div>
